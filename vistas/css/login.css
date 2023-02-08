@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  
+}
+  
+  /* Input Forms*/
+input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 15px;
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(143, 143, 143);
+    margin: 20px auto;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 15px;
+}
+  
+input[type="submit"] {
+    padding: 15px;
+    color: #fff;
+    background: #0098cb;
+    width: 150px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 15px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #00b8eb;
+}
+  
+
+header{
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.form_input:focus{
+    outline: solid 1px #00b8eb;
+}
+
